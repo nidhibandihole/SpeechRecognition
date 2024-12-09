@@ -13,7 +13,7 @@ root.configure(bg='pink')
 root.title("TEXT TO SPEECH")
 
 Msg = StringVar()
-Label(root,text ="Your Text Please", font = 'arialblack 15 bold', bg ='white').place(x=20,y=60)
+Label(root,text ="Enter your text : ", font = 'arialblack 15 bold', bg ='white').place(x=20,y=60)
 entry_field = Entry(root, textvariable = Msg ,width ='100')
 entry_field.place(x=10,y=100)
 
